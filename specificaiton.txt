@@ -1,0 +1,23 @@
+-- Page count (rq. 4)
+1. index.html (About FMP)
+2. portfolio.html
+3. projects.html
+4. contact.html
+
+-- HTML tags (rq. 10)
+1. <header> - used to document hero image as a header element
+2-6. <h1>, <h2> <br>, <p>, <div> - text formatting
+7-8. <img>, <hr> - Aesthetics
+9. <nav> - used to document nav bar
+10. <button> - links
+May include more tags.
+
+-- Bootstrap integration
+Use of flexbox feature to implement simple html element alignment. Also used .btn class for easier button formatting, carousel slide class for photo wheel.
+
+-- CSS selectors (rq. 5 total: tag, class or ID)
+@ styles.css
+
+-- Javascript integration
+
+-- Mobile and Desktop compatibility

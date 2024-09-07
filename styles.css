@@ -1,0 +1,62 @@
+/* Utilizes the var() function to access constant color variables */
+:root {
+	--bg: #181818; /* black */
+	--prim: #61DC71; /* Green */
+	--sec: #6153CC; /* Purple */
+}
+body {
+	background-color: var(--bg);
+	color: var(--prim);
+	font-family:"Lucida Console", "Courier New", monospace;
+	font-size: 3vh;
+}
+h1, h3, h4 {
+	color: var(--sec)
+}
+/* Classes */
+.content {
+	margin: 10% 5%;
+}
+.hero-img {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/binarycat.gif");
+	height: 50%;
+	display: flex;
+}
+.hero-content, .navbar {
+	padding: 2vh;
+}
+/* Bootstrap Classes */
+.btn {
+	background: rgba(0,0,0,0.5);
+	border: 0.3vh solid var(--prim);
+}
+.btn:hover {
+	background: rgba(0,0,0,0.5);
+	border: 0.3vh solid var(--sec);
+}
+.carousel-item {
+	height: 150vh;
+	width: 100%;
+}
+.overlay-image {
+	position: absolute;
+	inset: 0;
+	background-position: center;
+	background-size: cover;
+	opacity: 0.5;
+}
+/* .card-img-top {
+	height: 60vh;
+}
+.card-body {
+	background-color: var(--bg);
+} */
+.card {
+	width: 60vh;
+	background-color: var(--bg);
+	border-style: dashed;
+	border-color: var(--prim);
+}
+.card-deck {
+	display: flex;
+}
